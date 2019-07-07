@@ -1,0 +1,101 @@
+img {position:absolute;}
+body {
+font-family:Noto Sans, sans-serif;
+}
+#rightSide, #leftSide {
+background-color: inherit;
+position:absolute;
+ width:50%;
+ min-width: 600px;
+ min-height: 600px;
+ height:auto;
+ overflow: hidden;}
+
+#rightSide {left:49%;
+border-left: 2px dashed grey;}
+h1 {
+text-align: center;
+/* font-family: Courier, fantasy; */
+color: #69d3e6;
+margin:0
+}
+p {
+text-align: center;
+font-size: 1.2em;
+font-weight: 500;
+margin:0.2em 0;
+}
+button {
+margin: 5px auto 0;
+padding:10px 20px;
+background-color: #69d3e6;
+font-size: 1.5em;
+cursor:pointer;
+display:block;
+}
+#header {
+display: grid;
+grid-template-columns: 50% 50%;
+/* grid-gap:40px; */
+margin: 20px 10px;
+
+}
+
+
+#container {
+background-color: #C2EDF5;
+}
+
+/* The Modal (background) */
+.modalItself {
+display: none; /* Hidden by default */
+position: fixed; /* Stay in place */
+z-index: 20; /* Sit on top */
+left: 0;
+top: 0;
+width: 100%; /* Full width */
+height: 100%; /* Full height */
+overflow: auto; /* Enable scroll if needed */
+/* background-color: rgb(0,0,0); /* Fallback color */ */
+background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+background-color: #ED7878;
+margin: 15% auto; /* 15% from the top and centered */
+padding: 20px;
+border: 4px solid #BE1919;
+width: 40%; /* Could be more or less, depending on screen size */
+}
+
+.modal-content img {
+width:40%;
+display:block;
+margin: 0 auto;
+}
+
+.modal-content p {
+color: #5A0C0C;
+font-size: 2.5em;
+font-weight:600;
+}
+/* The Close Button */
+.close {
+color: #3D3D3D;
+float: right;
+font-size: 28px;
+font-weight: bold;
+margin:-25px -10px 0 0;
+}
+
+.close:hover,
+.close:focus {
+color: black;
+text-decoration: none;
+cursor: pointer;
+}
+
+.openModal {
+cursor: pointer;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <title>Matching Game</title>
+  <link href="styles.css" rel="stylesheet">
+   <style>
+
+   </style>
+
+
+
+
+  </head>
+<body onload="generateFaces()">
+<div id="header">
+<div class="column"><h1>Matching Game</h1>
+<p>Click on the extra smiling face on the left.</p></div>
+<div class="column"><button onclick="window.location.reload()" type="button">Start again</button>
+</div>
+</div>
+<div id="container">
+<div id="leftSide"></div>
+<div id="rightSide"></div>
+<!-- The Modal -->
+<div id="modal" class="modalItself">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p>Game over!<p>
+  </div>
+
+</div>
+</div>
+
+   <script src="scripts.js"></script>
+</body>
+</html>
